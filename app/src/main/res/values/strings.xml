@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TODO List</string>
+    <string name="inputForm_hint">What needs to be done?</string>
+    <string name="delete_description">Delete this item</string>
+    <string name="add_description">Add this</string>
+    <string name="menu_all">All</string>
+    <string name="menu_active">Active</string>
+    <string name="menu_completed">Completed</string>
+</resources>

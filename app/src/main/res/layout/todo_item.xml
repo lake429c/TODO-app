@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal|center_vertical">
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="50dp"
+        android:layout_height="55dp"
+        android:gravity="center"
+        android:soundEffectsEnabled="false"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/textView"
+        android:layout_width="229dp"
+        android:layout_height="55dp"
+        android:autofillHints=""
+        android:background="#00FFFFFF"
+        android:gravity="start|center_vertical"
+        android:inputType="textShortMessage"
+        android:soundEffectsEnabled="false"
+        android:textSize="24sp"
+        tools:ignore="LabelFor" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="61dp"
+        android:background="#00FFFFFF"
+        app:srcCompat="@android:drawable/ic_delete"
+        android:contentDescription="@string/delete_description" />
+
+</LinearLayout>
